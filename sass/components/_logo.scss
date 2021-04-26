@@ -1,0 +1,16 @@
+.logo {
+  font-family: var(--tittle-font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__logo {
+  color: var(--logo-color);
+}
+
+.text-logo {
+  color: var(--accent-color);
+}

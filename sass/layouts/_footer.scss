@@ -1,0 +1,66 @@
+.footer__link {
+  font-family: var(--tittle-font);
+  font-size: 14px;
+  line-height: 1.71;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__logo {
+  color: var(--page-tittle-color);
+}
+
+address {
+  font-style: normal;
+  color: var(--page-tittle-color);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__logo-indent {
+  padding-bottom: 20px;
+}
+
+.footer__address {
+  padding-bottom: 9px;
+}
+
+.footer__mail {
+  margin-bottom: 9px;
+}
+
+.footer__social-icons {
+  margin-top: 20px;
+}
+
+.footer__flex {
+  display: flex;
+}
+
+.footer__subscription {
+  width: calc((100% - 30px) / 2);
+}
+
+.footer__container {
+  justify-content: space-between;
+}
+
+.footer__social-icons--dark {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer__contacts {
+  margin-right: 70px;
+}
+
+.footer__social-icons .icon {
+  fill: var(--page-tittle-color);
+  transition: fill var(--animation) var(--animation-timing-function);
+}
+
+.footer__join {
+  padding-top: 12px;
+}
